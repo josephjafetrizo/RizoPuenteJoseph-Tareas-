@@ -44,10 +44,10 @@ int main()
 	}
 	printf("\n");
 	
-	printf("introdusca la fila de la oficina que esta quemandose\n");
+	printf("introdusca la fila de la oficina que esta quemandose(letra)\n");
 	fflush(stdin);
 	scanf("%c",&fila);
-	printf("introdusca la columna de la oficina que esta quemandose\n");
+	printf("introdusca la columna de la oficina que esta quemandose(letra)\n");
 	fflush(stdin);
 	scanf("%c",&col);
 	printf("\n%d %d\n",fila,col);
